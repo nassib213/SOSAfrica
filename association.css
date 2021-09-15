@@ -6,3 +6,315 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color: khaki;
   }
+  header{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://cdn.pixabay.com/photo/2016/01/30/17/22/desert-1170055_960_720.jpg');
+    background-size: cover;
+    padding: 50px;
+   
+   }
+   header h2{
+     font-size: 70px;
+    
+   }
+   header h3{
+     border-bottom: 1px solid black;
+    
+   }
+   
+   
+   
+     
+   
+   
+   nav{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background-color: darkorange;
+     align-items: center;
+     border-bottom: 3px solid grey;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 1;
+     
+   
+   
+    
+    
+   }
+   .logo h1{
+     font-family: Roboto,serif;
+   
+   }
+   
+   .liens ul {
+     list-style: none;
+     display: flex;
+     margin-top: 10px;
+   }
+   .liens ul a{
+     color: black;
+     text-decoration: none;
+     margin-right: 10px;
+     cursor: pointer;
+   
+   
+   }
+   .liens ul a:hover{
+     color:gray;
+     text-decoration: underline;
+     font-weight: bold;
+   
+   }
+   .main{
+    margin-top: 100px;
+   }
+   .evenement{
+     height: 530px;
+   }
+   .aide{
+    width: 100%;
+    height: 2500px;
+    margin-top: 80px;
+   }
+   .aide h1{
+     color: gray;
+     height: 50px;
+     text-align: center;
+   }
+   .aide img{
+     width: 400px;
+     height: auto;
+   }
+   .part{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 40px;
+   }
+   .part h2{
+     padding-top: 25px;
+   }
+   .part p{
+     width: 70%;
+     border: 1px solid black;
+     box-shadow: 10px 5px 5px black;
+   }
+   .part button{
+     background-color: blue;
+     color: white;
+   }
+   .soutiens{
+     
+     
+   }
+   section{
+     width: 90%;
+     margin: auto;
+     
+   }
+   .presentation{
+     margin-top: 30px;
+   }
+   .presentation h2{
+     border-bottom: 1px solid black;
+   }
+   .primaire{
+     width: 90%;
+     margin: auto;
+     
+   }
+   section h2{
+     text-align: center;
+     font-weight: bold;
+     
+    
+     
+     
+   }
+   article{
+    
+   
+   }
+   article .article{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     align-items: center;
+    
+   
+   }
+   article .article .left{
+     
+   
+   }
+   article .article .left img{
+     width: 400px;
+     height: 250px;
+     border-radius: 5px;
+     box-shadow: 10px 5px 5px black;
+    
+    
+     
+     
+   
+   }
+   
+   article .article .right{
+     max-width: 60%;
+     margin-left: 80px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border:  1px solid gray;
+     padding: 20px;
+     box-shadow: 10px 5px 5px black; 
+     
+    
+     
+   }
+   article .article .right h4{
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: bold;
+   }
+   article .article .right p{
+    line-height: 25px;
+   }
+   article .article .right button {
+     background-color: grey;
+     border: none;
+     border-radius: 0;
+     cursor: pointer;
+   }
+   article .article .right a{
+     color: white;
+     text-decoration: none;
+   }
+   .title h1{
+     text-align: center;
+     font-weight: bolder;
+   
+   }
+   .nos-actions{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+    
+     
+     
+     
+   }
+   .nos-actions p{
+     width: 600px;
+     margin: 30px;
+     border: 1px solid black;
+     box-shadow: 10px 5px 5px black;
+     padding: 10px;
+   }
+   .nos-actions h2{
+    margin: 30px;
+    text-align: center;
+    font-weight:bold;
+   }
+   
+   .center{
+     margin-left: 70px;
+   }
+   .content{
+     height: 700px;
+   }
+   label{
+     width: 140px;
+   }
+   input{
+     border: 2px solid violet;
+   }
+   textarea{
+     border: 2px solid violet;
+   }
+   form{
+     background:floralwhite;
+     width: 450px;
+     margin-top: 20%;
+     margin-left: 50%;
+     transform: translate(-50%,-50%);
+     padding: 20px;
+     border-radius: 10px;
+     z-index: 0;
+   }
+   form button{
+     border: 2px solid violet;
+     background-color: turquoise;
+   }
+   
+   
+   
+   
+   .services{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 30px;
+     background-color: chocolate;
+     color: white;
+     border-top: 3px solid grey;
+     
+   }
+   .service{
+     width: 25%;
+     margin: 20px;
+   }
+   .service button{
+     background-color: darkgoldenrod;
+     border: none;
+     border-radius: 0;
+     cursor: pointer;
+     margin-left: 25%;
+   }
+   .service h3{
+     text-align: center;
+   
+   
+   }
+   footer{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     
+     background-color: darkorange;
+     align-items: center;
+     
+     width: 100%;
+     
+     
+   }
+   .pied-de-page{
+     position: relative;
+   }
+   footer p{
+     font-weight: 600;
+   }
+   footer address{
+     font-weight: 600;
+   }
+   footer .reseaux-sociaux{
+     display: flex;
+     align-items: center;
+     margin-right: 10px;
+    
+   }
+   footer .contact{
+     margin-top: 10px;
+     margin-left: 10px;
+   }
+   footer .reseaux-sociaux p{
+     margin-top: 10px;
+     margin-left: 10px;
+   }
